@@ -23,5 +23,11 @@
 
 * 도커 이미지를 실행해서 동작 확인하기
   * 위에서 빌드한 도커 이미지를 실행해서 정상적으로 실행되는지 확인
+  ```
+  docker run -t moonsungkim/docker-practice
+  ```
 
 * docker-compose를 사용하여 도커 이미지 실행하기
+```
+docker-compose up
+```
